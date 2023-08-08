@@ -1,5 +1,3 @@
-# github issues
-
 <table>
 <tr>
 <td>issue</td>
