@@ -47,6 +47,7 @@ rm -rf github-issues/ghmd || true
   # loop sections
   # TODO add more sections
   # TODO? generate multiple index files, one file per section
+  # FIXME skip empty sections
   for selector in "open issue" "closed issue" "merged pr"; do
     section="${selector}s"
     selected_status=${selector% *}
